@@ -105,6 +105,11 @@
 		reg = <4>;
 		reset-gpios = <&gpio 11 GPIO_ACTIVE_LOW>;
 	};
+
+	phy6: ethernet-phy@6 {
+		reg = <6>;
+		reset-gpios = <&gpio 11 GPIO_ACTIVE_LOW>;
+	};
 };
 
 &eth0 {
